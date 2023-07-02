@@ -18,12 +18,25 @@ I am 24 years old. I am a translator with an IELTS score of 7.0. For some time n
 
 ## Code Examples:
 class Triangle {
+
+
   constructor(a, b, c){
+
+  
     this.a = a;
+
+    
     this.b = b;
+
+    
     this.c = c;
+
+    
     if(this.a+this.b<=this.c || this.b+this.c<=this.a || this.a + this.c<=b){
+
+    
       throw new Error('Треугольник с такими сторонами не существует')
+      
     } 
 ## Education:
 * Eurasian Humanities Institute
