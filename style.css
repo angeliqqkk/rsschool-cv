@@ -76,7 +76,7 @@ body{
     text-align: center;
     width: 50%;
     padding: 30px;
-    max-height: 300px;
+    min-height: 200px;
 
 }
 h2{
@@ -105,7 +105,7 @@ pre{
     padding-left: 20px;
     font-size: 25px;
     line-height: 1.5;
-    text-align: center;
+    text-align: left;
 }
 footer{
     height: 100px;
