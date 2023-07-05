@@ -1,1 +1,135 @@
-style
+html {
+    scroll-behavior: smooth; 
+  }
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    box-sizing: border-box;
+    display: block;
+    background-color: beige;
+}
+.navigation-list{
+    text-transform: uppercase;
+}
+.list-style{
+    list-style-type: none;
+    display: flex;
+    min-height: 80px;
+    padding-top: 40px;
+    margin-top: 0;
+}
+.list-style-type{
+    text-decoration: none;
+    color: #000000; 
+    font-family: OpenSansRegular;
+    font-size: 25px;
+}
+.list-style-type:hover{
+    color:rgb(226, 43, 162);
+}
+.menu-list:not(:last-child){
+    padding-right: 100px;
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+@font-face {
+    font-family: OpenSansRegular;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+.main{
+    box-sizing: border-box;
+}
+.profile{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(235, 230, 224);
+}
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.name{
+    font-family: OpenSansRegular;
+    color: rgb(51, 14, 92);
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.article{
+    margin: auto auto;
+    text-align: center;
+    width: 50%;
+    padding: 30px;
+    min-height: 200px;
+
+}
+h2{
+    color: rgb(51, 14, 92);
+    font-family: OpenSansRegular;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+p{
+    font-family: OpenSansRegular;
+    padding-left: 20px;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.contact-list-style{
+    list-style-type: none;
+    color: #000000; 
+    font-family: OpenSansRegular;
+    font-size: 25px;
+    line-height: 1.5;
+}
+pre{
+    font-family: OpenSansRegular;
+    padding-left: 20px;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: left;
+}
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+}
+.logo{
+    
+    width: 200px;
+    height: auto;
+    position: relative;
+}
+.link-github{
+    text-decoration: none;
+    color: #000000; 
+    font-family: OpenSansRegular;
+    font-size: 25px;
+    justify-content: flex-end;
+    padding-right: 200px;
+}
+.link-github:hover{
+    color:rgb(226, 43, 162);
+}
+.year{
+    font-size: 20px;
+}
